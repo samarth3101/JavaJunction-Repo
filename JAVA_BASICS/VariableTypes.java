@@ -1,16 +1,16 @@
 package JAVA_BASICS;
 
 class Student{
-    String name;
+    String name;  //instance
 
-    static String schoolName = "PCET's PCU";
+    static String schoolName = "PCET's PCU";  //static
 
-    Student(String studentName){
+    Student(String studentName){  //constructor
         name = studentName;
     }
 
     void displayInfo(){
-        int marks = 95;
+        int marks = 95;   //local
 
         System.out.println("Name: " + name);
         System.out.println("School name: " + schoolName);
